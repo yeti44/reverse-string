@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reverse String</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="card">
+      <h1>Reverse String</h1>
+      <p class="subtitle">
+        Type some text and reverse it. Emoji and accented characters stay intact.
+      </p>
+
+      <label class="field-label" for="input">Your text</label>
+      <textarea
+        id="input"
+        rows="3"
+        placeholder="Hello, world! 👋"
+        autocomplete="off"
+      ></textarea>
+
+      <button id="reverse-btn" type="button">Reverse</button>
+
+      <label class="field-label" for="output">Reversed</label>
+      <output id="output" aria-live="polite"></output>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

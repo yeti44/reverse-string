@@ -1,0 +1,10 @@
+{
+  "name": "reverse-string",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "dev-server",
+      "command": "npm run dev"
+    }
+  ]
+}
